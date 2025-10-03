@@ -1,0 +1,82 @@
+
+body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red{
+    background-color: pink;
+    height: 30px;
+    width: 300px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: flex;
+}
+.da{
+    background-color: rgb(237, 21, 21);
+    border-right:4px solid black;
+    width:30%;
+    height:100%;
+    margin-right: 10px;
+}
+.db{
+    border-left:4px solid black;
+    border-right: 41px solid red;
+    display: flex;
+    flex-direction: row-reverse;    
+        width: 50%;
+
+
+}
+
+.green{
+    background-color: rgb(140, 223, 140);
+    height: 30px;
+    width: 300px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: flex;
+}
+.ga{
+    background-color: green;
+    border-right:4px solid black;
+    width:30%;
+    height:100%;
+    margin-right: 10px;
+}
+.gb{
+    border-left:4px solid black;
+    border-right: 41px solid green;
+    display: flex;
+    flex-direction: row-reverse;    
+        width: 50%;
+
+
+}
+
+
+.blue{
+    background-color: rgb(112, 112, 249);
+    height: 30px;
+    width: 300px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: flex;
+}
+.ba{
+    background-color: blue;
+    border-right:4px solid black;
+    width:30%;
+    height:100%;
+    margin-right: 10px;
+}
+.bb{
+    border-left:4px solid black;
+    border-right: 41px solid blue;
+    display: flex;
+    flex-direction: row-reverse;    
+        width: 50%;
+
+
+}
